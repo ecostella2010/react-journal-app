@@ -16,7 +16,7 @@ import { startLoadingNotes } from '../actions/notes';
 
 
 export const AppRouter = () => {
-    console.log( 'AppRouter' );
+    //console.log( 'AppRouter' );
 
     const dispatch = useDispatch();
 

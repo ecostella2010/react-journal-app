@@ -20,7 +20,7 @@ export const LoginScreen = () => {
     const { email, password } = formValues;
 
     const handleLogin = (e) => {
-        console.log ('Login');
+        //console.log ('Login');
         e.preventDefault();
         // dispatch ( login (12345, 'Eduardo' ) );
 
