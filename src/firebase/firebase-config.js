@@ -19,29 +19,7 @@ const firebaseConfig = {
   messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
   appId: process.env.REACT_APP_FIREBASE_APP_ID,
 };
-  // const firebaseConfig = {
-  //     apiKey: "AIzaSyDgCQKMya50STSkqMo325j_IdEBiZN3ET8",
-  //     authDomain: "react-app-cursos-c98ec.firebaseapp.com",
-  //     projectId: "react-app-cursos-c98ec",
-  //     storageBucket: "react-app-cursos-c98ec.appspot.com",
-  //     messagingSenderId: "418644070048",
-  //     appId: "1:418644070048:web:6ddd2afa7de4d7dab7c3c5"
-  //   };
-  //  console.log('process.env:');
-  //  console.log(process.env);
-
-  // Your web app's Firebase configuration
-  // const firebaseConfigTesting = {
-  //     apiKey: "AIzaSyAVxUxhxqHJQMlp7YEnntU8O9b9Kaw3lsE",
-  //     authDomain: "test-49980.firebaseapp.com",
-  //     databaseURL: "https://test-49980.firebaseio.com",
-  //     projectId: "test-49980",
-  //     storageBucket: "test-49980.appspot.com",
-  //     messagingSenderId: "787988976002",
-  //     appId: "1:787988976002:web:fba32b27a9b7db46757f9b"
-  //   };
-
-
+  
   // if( process.env.NODE_ENV === 'test') {
   //   // testing
   //   // Initialize Firebase
